@@ -15,11 +15,9 @@ public class Test {
 
         Routine routine = new Repeat((new Wander(board)));
         droid.setRoutine(routine);
-        System.out.println(droid);
 
         for (int i = 0; i < 10; i++) {
             droid.update();
-            System.out.println(droid);
         }
     }
 }
