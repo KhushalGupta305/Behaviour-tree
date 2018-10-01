@@ -5,11 +5,7 @@ import net.obviam.bt.ai.Routine;
 public class Droid {
 
     final String name;
-    int x;
-    int y;
-    int range;
-    int damage;
-    int health;
+    int x, y, range, damage, health;
 
     Routine routine;
     Board board;
