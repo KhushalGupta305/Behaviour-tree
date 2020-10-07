@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Board {
 
-    final int width;
-    final int height;
+    private final int width;
+    private final int height;
 
     private List<Droid> droids = new ArrayList<Droid>();
 
